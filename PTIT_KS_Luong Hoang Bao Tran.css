@@ -1,5 +1,6 @@
 body {
     background-color: #000629;
+    font-family: sans-serif;
 }
 header {
     display: flex;
@@ -48,7 +49,7 @@ header {
     margin-left: 30px;
     
 }
-.header-h2__1, .header-h2__2 {
+.header-h2__1, .header-h2__2, .header-h2__3 {
     color: white;
     font-weight: 10;
     letter-spacing: 2px;
@@ -56,6 +57,7 @@ header {
 }
 .header-h2__1 {
     margin-bottom: 0 ;
+    margin-top: 40px;
 }
 .header-h2__2 {
     margin-top: 0px;
@@ -120,7 +122,7 @@ header {
     grid-area: item4;
     border: 1px black solid;
     border-radius: 15px;
-    background-color: #1f32cf36;
+    background-color: #2B2D40;
     margin: 0 5px 5px 0;
     height:230px;
     display: flex;
@@ -131,7 +133,7 @@ header {
     grid-area: item5;
     border: 1px black solid;
     border-radius: 15px;
-    background-color: #1f32cf36;
+    background-color: #2B2D40;
     margin: 0 0 5px 5px;
     height:230px;
     display: flex;
@@ -143,7 +145,7 @@ header {
     border: 1px black solid;
     border-radius: 15px;
     margin: 5px 5px 0 0;
-    background-color: #1f32cf36;
+    background-color: #2B2D40;
     height:230px;
     display: flex;
     flex-direction: column;
@@ -153,7 +155,7 @@ header {
     grid-area: item7;
     border: 1px black solid;
     border-radius: 15px;
-    background-color: #1f32cf36;
+    background-color: #2B2D40;
     margin: 5px 0 0 5px;
     height:230px;
     display: flex;
@@ -164,3 +166,124 @@ header {
     font-size: medium;
 }
 
+.my-project {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-project__header {
+    display: flex;
+}
+.my-project__header h3 {
+    font-size: 30px;
+}
+.my-project__TOC {
+    display: flex;
+    margin: 30px 0 20px 0;
+}
+.my-project__TOC h5 {
+    margin: 8px;
+    text-transform: uppercase;   
+}
+.red {
+    color: brown;
+}
+.my-project__cell {
+    padding: 0 40px 0 40px;
+    display: grid;
+    grid-template-areas: 'item8 item9'
+                         'item10 item11';
+}
+span {
+    color: brown;
+}
+.my-project__cell-1 {
+    grid-area: item8;
+    margin: 0 10px 10px 0;
+}
+.my-project__cell-2 {
+    grid-area: item9;
+    margin: 0 0 10px 10px;
+}
+.my-project__cell-3 {
+    grid-area: item10;
+    margin: 10px 10px 0 0;
+}
+.my-project__cell-4 {
+    grid-area: item11;
+    margin: 10px 0 0 10px;
+}
+.infor img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.my-project__cell-1,
+.my-project__cell-2,
+.my-project__cell-3,
+.my-project__cell-4 {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #2B2D40;
+    padding: 20px;
+
+}
+.my-project__cell div h5 {
+    font-size: larger;
+    margin: 0 0;
+}
+.my-project__cell div .content {
+    opacity: 0.6;
+}
+.my-project__cell div .mini {
+    opacity: 0.7;
+    font-size: 12px;
+}
+.infor {
+    display: flex;
+    align-items: center;
+}
+.infor div {
+    margin-left: 40px;
+}
+.infor div p {
+    margin: 10px 0;
+    opacity: 0.6;
+}
+
+.works {
+    display: flex;
+    padding: 100px 40px;
+    color: white;
+    
+    
+}
+.works div {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 50px 25px 25px 0;
+    width: 400px;
+    background-color: #2B2D40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works__number {
+    font-size: 50px;
+    margin: 30px 0 10px;
+    opacity: 0.6;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.works__number-spe {
+    color: #3E21D7;
+    font-size: 50px;
+    margin: 30px 0 10px;
+    opacity: 0.6;
+    font-weight: 700;
+    opacity: 0.5;
+}
